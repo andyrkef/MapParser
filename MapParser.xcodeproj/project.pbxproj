@@ -1,0 +1,231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10880C513FFF2BE003F604D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10880C413FFF2BE003F604D /* Foundation.framework */; };
+		A10880C813FFF2BF003F604D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A10880C713FFF2BF003F604D /* main.m */; };
+		A10880CC13FFF2BF003F604D /* MapParser.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A10880CB13FFF2BF003F604D /* MapParser.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A10880BE13FFF2BE003F604D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				A10880CC13FFF2BF003F604D /* MapParser.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A10880C013FFF2BE003F604D /* MapParser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MapParser; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10880C413FFF2BE003F604D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A10880C713FFF2BF003F604D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A10880CA13FFF2BF003F604D /* MapParser-Prefix.pch */ = {isa = PBXFileReference; path = "MapParser-Prefix.pch"; sourceTree = "<group>"; };
+		A10880CB13FFF2BF003F604D /* MapParser.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MapParser.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10880BD13FFF2BE003F604D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10880C513FFF2BE003F604D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10880B513FFF2BD003F604D = {
+			isa = PBXGroup;
+			children = (
+				A10880C613FFF2BE003F604D /* MapParser */,
+				A10880C313FFF2BE003F604D /* Frameworks */,
+				A10880C113FFF2BE003F604D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10880C113FFF2BE003F604D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10880C013FFF2BE003F604D /* MapParser */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A10880C313FFF2BE003F604D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A10880C413FFF2BE003F604D /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A10880C613FFF2BE003F604D /* MapParser */ = {
+			isa = PBXGroup;
+			children = (
+				A10880C713FFF2BF003F604D /* main.m */,
+				A10880CB13FFF2BF003F604D /* MapParser.1 */,
+				A10880C913FFF2BF003F604D /* Supporting Files */,
+			);
+			path = MapParser;
+			sourceTree = "<group>";
+		};
+		A10880C913FFF2BF003F604D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A10880CA13FFF2BF003F604D /* MapParser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10880BF13FFF2BE003F604D /* MapParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10880CF13FFF2BF003F604D /* Build configuration list for PBXNativeTarget "MapParser" */;
+			buildPhases = (
+				A10880BC13FFF2BE003F604D /* Sources */,
+				A10880BD13FFF2BE003F604D /* Frameworks */,
+				A10880BE13FFF2BE003F604D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapParser;
+			productName = MapParser;
+			productReference = A10880C013FFF2BE003F604D /* MapParser */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10880B713FFF2BD003F604D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A10880BA13FFF2BD003F604D /* Build configuration list for PBXProject "MapParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A10880B513FFF2BD003F604D;
+			productRefGroup = A10880C113FFF2BE003F604D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10880BF13FFF2BE003F604D /* MapParser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10880BC13FFF2BE003F604D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10880C813FFF2BF003F604D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A10880CD13FFF2BF003F604D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A10880CE13FFF2BF003F604D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A10880D013FFF2BF003F604D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapParser/MapParser-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A10880D113FFF2BF003F604D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapParser/MapParser-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10880BA13FFF2BD003F604D /* Build configuration list for PBXProject "MapParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10880CD13FFF2BF003F604D /* Debug */,
+				A10880CE13FFF2BF003F604D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10880CF13FFF2BF003F604D /* Build configuration list for PBXNativeTarget "MapParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10880D013FFF2BF003F604D /* Debug */,
+				A10880D113FFF2BF003F604D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10880B713FFF2BD003F604D /* Project object */;
+}

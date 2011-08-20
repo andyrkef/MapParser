@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'MapParser' target in the 'MapParser' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
