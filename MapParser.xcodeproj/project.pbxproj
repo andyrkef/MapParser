@@ -10,6 +10,8 @@
 		A10880C513FFF2BE003F604D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10880C413FFF2BE003F604D /* Foundation.framework */; };
 		A10880C813FFF2BF003F604D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A10880C713FFF2BF003F604D /* main.m */; };
 		A10880CC13FFF2BF003F604D /* MapParser.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A10880CB13FFF2BF003F604D /* MapParser.1 */; };
+		A10880D413FFF343003F604D /* MapFormatReader.m in Sources */ = {isa = PBXBuildFile; fileRef = A10880D313FFF343003F604D /* MapFormatReader.m */; };
+		A1491921140142B20045961D /* MapFile.m in Sources */ = {isa = PBXBuildFile; fileRef = A1491920140142B20045961D /* MapFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +31,12 @@
 		A10880C013FFF2BE003F604D /* MapParser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MapParser; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10880C413FFF2BE003F604D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A10880C713FFF2BF003F604D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A10880CA13FFF2BF003F604D /* MapParser-Prefix.pch */ = {isa = PBXFileReference; path = "MapParser-Prefix.pch"; sourceTree = "<group>"; };
+		A10880CA13FFF2BF003F604D /* MapParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapParser-Prefix.pch"; sourceTree = "<group>"; };
 		A10880CB13FFF2BF003F604D /* MapParser.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MapParser.1; sourceTree = "<group>"; };
+		A10880D213FFF343003F604D /* MapFormatReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapFormatReader.h; sourceTree = "<group>"; };
+		A10880D313FFF343003F604D /* MapFormatReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapFormatReader.m; sourceTree = "<group>"; };
+		A149191F140142B20045961D /* MapFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapFile.h; sourceTree = "<group>"; };
+		A1491920140142B20045961D /* MapFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapFile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,10 @@
 				A10880C713FFF2BF003F604D /* main.m */,
 				A10880CB13FFF2BF003F604D /* MapParser.1 */,
 				A10880C913FFF2BF003F604D /* Supporting Files */,
+				A10880D213FFF343003F604D /* MapFormatReader.h */,
+				A10880D313FFF343003F604D /* MapFormatReader.m */,
+				A149191F140142B20045961D /* MapFile.h */,
+				A1491920140142B20045961D /* MapFile.m */,
 			);
 			path = MapParser;
 			sourceTree = "<group>";
@@ -136,6 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A10880C813FFF2BF003F604D /* main.m in Sources */,
+				A10880D413FFF343003F604D /* MapFormatReader.m in Sources */,
+				A1491921140142B20045961D /* MapFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +236,7 @@
 				A10880D113FFF2BF003F604D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

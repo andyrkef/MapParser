@@ -8,6 +8,19 @@
 
 #import <Foundation/Foundation.h>
 
-@interface MapFormatReader : NSObject
+
+@interface MapFormatReader : NSObject{
+    NSFileManager *fileManager;
+    NSFileHandle *file;    
+}
+
+
+-(void) filecheck;
+-(void) openFile;
+-(void) closeFile;
+-(void) easyRead;
+-(void) parseFileHeader;
+
+
 
 @end
